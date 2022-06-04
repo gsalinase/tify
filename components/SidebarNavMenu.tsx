@@ -1,4 +1,4 @@
-import NextLink from 'next/link'
+import NextLink from "next/link";
 import {
   Box,
   List,
@@ -6,7 +6,7 @@ import {
   ListIcon,
   LinkBox,
   LinkOverlay,
-} from '@chakra-ui/layout'
+} from "@chakra-ui/layout";
 
 const SidebarNavMenu = ({ navMenu }) => {
   return (
@@ -26,7 +26,7 @@ const SidebarNavMenu = ({ navMenu }) => {
         ))}
       </List>
     </Box>
-  )
-}
+  );
+};
 
-export default SidebarNavMenu
+export default SidebarNavMenu;
