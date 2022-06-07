@@ -1,6 +1,6 @@
 import fetcher from "./fetcher";
 
-export default auth = (
+export const auth = (
   mode: "signin" | "singup",
   body: { email: string; password: string }
 ) => {
